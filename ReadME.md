@@ -6,7 +6,7 @@ npm install
 npm start
 
 
-### Detail to use the Application
+### Functionalities of Weather Application
 
 # Search for the city you want to see the weather forecast
 #You can change the Unit of Degree to either Celsius or Fahrenheit.
