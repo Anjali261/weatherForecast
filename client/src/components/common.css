@@ -1,0 +1,36 @@
+.temperature-display, 
+.cityDisplay, 
+.condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px auto; 
+    padding: 4px; 
+    background-color: #b3e766; 
+    color: black; 
+    border-radius: 8px; 
+    min-width: 300px; 
+    max-width: 500px; 
+    min-height: 30px; 
+}
+
+@media (max-width: 768px) {
+    .temperature-display, 
+    .cityDisplay, 
+    .condition {
+        min-width: 80vw; 
+        max-width: 90vw; 
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .temperature-display, 
+    .cityDisplay, 
+    .condition {
+        min-width: 90vw; 
+        font-size: 18px;
+    }
+}
